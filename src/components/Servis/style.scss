@@ -1,0 +1,46 @@
+.servis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    transition: all 0.1s linear 0.1s;
+
+    &:hover {
+        background-color: #4f8ff0;
+        cursor: pointer;
+
+        .servis__icon {
+            background: url("../../images/services-white.svg") center/cover;
+        }
+
+        .servis__title,
+        .servis__subtitle {
+            color: #fff;
+        }
+    }
+
+    &__icon {
+        width: 35px;
+        height: 35px;
+        background: url("../../images/services-blue.svg") center/cover;
+        transition: all 0.1s linear 0.1s;
+    }
+
+    &__title {
+        margin: 15px 0 10px;
+        max-width: 360px;
+        transition: all 0.1s linear 0.1s;
+        padding: 0px 32px;
+    }
+
+    &__subtitle {
+        margin: 0;
+        max-width: 360px;
+        text-align: center;
+        transition: all 0.1s linear 0.1s;
+        padding: 0px 32px;
+    }
+}
