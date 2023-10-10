@@ -1,25 +1,24 @@
 import React from "react";
-import Servis from "../Servis";
+import EmployeesCard from "../EmployeesCard";
 import "./style.scss";
-import services from "../../constants/Servises";
-
+import employees from "../../constants/Employees";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
-function Services() {
+function Employees() {
   return (
-    <section className="services" id="services">
-      <h3 className="services__title">Наши услуги</h3>
-      <p className="services__subtitle">
+    <section className="employees" id="employees">
+      <h3 className="employees__title">Наши юристы</h3>
+      <p className="employees__subtitle">
         Давно выяснено, что при оценке дизайна и композиции читаемый текст
         мешает сосредоточиться. Lorem Ipsum используют потому, что тот
         обеспечивает более или менее стандартное заполнение шаблона
       </p>
-      <div className="services__cards">
-        {services.map((servis) => {
-          return <Servis servis={servis}></Servis>;
+      <div className="employees__cards">
+        {employees.map((emplo) => {
+          return <EmployeesCard emplo={emplo}></EmployeesCard>;
         })}
       </div>
-      <div className="services__cards-splide">
+      <div className="employees__cards-slider">
         <Splide
           options={{
             // type: "loop",
@@ -27,36 +26,29 @@ function Services() {
             rewindByDrag: true,
             drag: true,
             gap: "24px",
-            perPage: 2,
+            perPage: 1,
             perMove: 1,
             arrows: false,
-            width: "100%",
             pagination: false,
+            focus: "left",
             padding: "10%",
-            breakpoints: {
-              600: {
-                perPage: 1,
-                padding: "20%",
-              },
-            },
           }}
-          className="services__cards-splide-slider"
+          className="employees__cards-splide-slider"
         >
-          {services.map((servis) => {
+          {employees.map((emplo) => {
             return (
               <SplideSlide
-                className="services__cards-splide-slide"
-                key={servis?.id}
+                className="employees__cards-splide-slide"
+                key={emplo?.id}
               >
-                <Servis servis={servis}></Servis>
+                <EmployeesCard emplo={emplo}></EmployeesCard>
               </SplideSlide>
             );
           })}
         </Splide>
       </div>
-      <button className="services__button button">Все услуги</button>
     </section>
   );
 }
 
-export default Services;
+export default Employees;

@@ -1,6 +1,73 @@
-.footer{
-    .h3{
-    color: red;
-        
+.navigation {
+    &::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        opacity: 0;
+        background-color: #202020;
+        transition: all 0.3s ease 0.1s;
+        z-index: -1;
+        content: "";
+    }
+
+    &_active::after {
+        opacity: 0.4;
+
+        width: 100vw;
+        height: 100vh;
+    }
+
+    &__nav-menu {
+        @media (max-width: 1180px) {
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            height: 100%;
+            transition: all 0.3s ease 0s;
+            z-index: 90;
+            flex-direction: column;
+            background-color: #202020;
+            max-width: 520px;
+            align-items: center;
+            padding: 160px 0 90px;
+
+            &_active {
+                right: 0;
+            }
+        }
+    }
+
+    &__nav-link-list {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        @media (max-width: 1180px) {
+            flex-direction: column;
+        }
+    }
+
+    &__nav-link-item {
+        list-style-type: none;
+        color: #fff;
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        transition: all 0.3s ease 0.1s;
+
+        @media (hover: hover) {
+            &:hover {
+                color: #4f8ff0;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
     }
 }

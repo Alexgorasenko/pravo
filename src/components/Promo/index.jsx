@@ -11,7 +11,7 @@ function Promo() {
         мешает сосредоточиться. Lorem Ipsum используют потому, что тот
         обеспечивает более или менее стандартное заполнение.
       </p>
-      <button className="promo__botton">Наши услуги</button>
+      <button className="button">Наши услуги</button>
     </section>
   );
 }

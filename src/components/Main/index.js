@@ -1,10 +1,11 @@
 import React from "react";
 import AboutCompany from "../AboutCompany";
 import Employees from "../Employees";
+import Feedback from "../Feedback";
 import Promo from "../Promo";
-import Reviews from "../Reviews";
+
 import Services from "../Services";
-import UsefulMaterials from "../UsefulMaterials";
+import Faq from "../Faq";
 import Сontacts from "../Сontacts";
 
 import "./style.scss";
@@ -16,8 +17,8 @@ function Main() {
       <Services></Services>
       <AboutCompany></AboutCompany>
       <Employees></Employees>
-      <Reviews></Reviews>
-      <UsefulMaterials></UsefulMaterials>
+      <Feedback></Feedback>
+      <Faq></Faq>
       <Сontacts></Сontacts>
     </section>
   );
