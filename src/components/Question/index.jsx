@@ -21,7 +21,7 @@ function Question({ item }) {
       <div
         className={`question__body ${isActive ? "" : "question__body-active"}`}
       >
-        <p className="question__resp ">{item.response}</p>
+        <p className="question__resp">{item.response}</p>
       </div>
     </article>
   );

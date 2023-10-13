@@ -62,24 +62,29 @@
     }
 
     &__body {
-        overflow: hidden;
-        visibility: hidden;
-        transition: 0.3s ease;
-        opacity: 0;
-        height: 0;
-        display: flex;
         padding: 0 12px;
+        display: grid;
+        grid-template-rows: 0fr;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease 0.1s;
     }
 
     &__body-active {
-        display: flex;
         opacity: 1;
-        height: 90px;
         visibility: visible;
+        grid-template-rows: 1fr;
+        // margin-top: 8px;
     }
 
     &__resp {
         margin: 0;
         padding-bottom: 15px;
+        min-height: 0px;
+    }
+
+    &__resp-active {
+        display: block;
     }
 }
