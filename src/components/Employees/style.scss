@@ -2,10 +2,8 @@
     background-color: rgba(247, 247, 247, 1);
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 80px;
 
     @media (hover: hover) {
         &:hover {
@@ -49,7 +47,7 @@
         font-weight: 400;
         line-height: 120%;
         max-width: 920px;
-        margin: 24px 30px 48px;
+        margin: 24px 30px 0px;
 
         width: 100%;
 

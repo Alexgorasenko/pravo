@@ -21,7 +21,6 @@ function Employees() {
       <div className="employees__cards-slider">
         <Splide
           options={{
-            // type: "loop",
             autoplay: true,
             rewindByDrag: true,
             drag: true,
@@ -32,6 +31,7 @@ function Employees() {
             pagination: false,
             focus: "left",
             padding: "10%",
+            width: "100%",
           }}
           className="employees__cards-splide-slider"
         >

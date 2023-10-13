@@ -22,7 +22,6 @@ function Services() {
       <div className="services__cards-splide">
         <Splide
           options={{
-            // type: "loop",
             autoplay: true,
             rewindByDrag: true,
             drag: true,

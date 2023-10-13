@@ -9,20 +9,22 @@
     transition: all 0.1s linear 0.1s;
 
     @media (max-width: 768px) {
-        max-width: 250px;
+        max-width: 300px;
     }
 
-    &:hover {
-        background-color: #4f8ff0;
-        cursor: pointer;
+    @media (hover: hover) {
+        &:hover {
+            background-color: #4f8ff0;
+            cursor: pointer;
 
-        .servis__icon {
-            background: url("../../images/services-white.svg") center/cover;
-        }
+            .servis__icon {
+                background: url("../../images/services-white.svg") center/cover;
+            }
 
-        .servis__title,
-        .servis__subtitle {
-            color: #fff;
+            .servis__title,
+            .servis__subtitle {
+                color: #fff;
+            }
         }
     }
 

@@ -1,5 +1,20 @@
 .employees-card {
     width: 312px;
+    position: relative;
+    margin: 48px 0 80px;
+    height: 398px;
+
+    @media (hover: hover) {
+        &:hover {
+            .employees-card__front {
+                transform: perspective(600px) rotateY(-180deg);
+            }
+
+            .employees-card__back {
+                transform: perspective(600px) rotateY(0deg);
+            }
+        }
+    }
 
     &__image {
         width: 100%;
@@ -7,7 +22,40 @@
         object-fit: cover;
     }
 
-    &__preview-text {
+    &__front {
+        transform: perspective(900px) rotateY(0deg);
+        transition: all 0.8s ease 0s;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        backface-visibility: hidden;
+
+        &_active {
+            transform: perspective(600px) rotateY(-180deg);
+        }
+    }
+
+    &__back {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        transform: perspective(900px) rotateY(180deg);
+        transition: all 0.8s ease 0s;
+        position: absolute;
+        overflow: hidden;
+        backface-visibility: hidden;
+
+        &_active {
+            transform: perspective(600px) rotateY(0deg);
+        }
+    }
+
+    &__front-text {
         background-color: #fff;
         padding: 24px 0;
         display: flex;
@@ -16,18 +64,8 @@
         justify-content: center;
     }
 
-    &__description {
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 0 20px;
-        height: 398px;
-    }
-
     &__title {
-        margin: 0 0 10px;
+        margin: 0 16px 10px;
         color: #222;
         text-align: center;
         font-family: Inter;
@@ -38,7 +76,7 @@
     }
 
     &__subtitle {
-        margin: 0;
+        margin: 0 20px;
         color: #222;
         text-align: center;
         font-family: Inter;
@@ -56,7 +94,7 @@
         font-style: normal;
         font-weight: 300;
         line-height: 120%;
-        margin: 40px 0;
+        margin: 40px 20px;
     }
 
     &__experience {
@@ -67,5 +105,6 @@
         font-style: normal;
         font-weight: 600;
         line-height: 120%;
+        margin: 0 20px;
     }
 }

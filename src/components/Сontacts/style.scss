@@ -1,19 +1,17 @@
 .contacts {
     background-color: #222;
-    margin-top: 80px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 80px 0;
+    padding: 80px;
 
     &__head {
         max-width: 1320px;
-        width: 100%;
+        width: calc(100% - 24px - 24px);
         display: flex;
         justify-content: space-between;
-        // margin-top: 80px;
         padding-bottom: 48px;
         border-bottom: 1px solid #8c8c8c;
         margin: 0 24px;
@@ -44,9 +42,9 @@
     &__content {
         display: flex;
         max-width: 1320px;
-        width: 100%;
+        width: calc(100% - 24px - 24px);
         justify-content: space-between;
-        margin-top: 48px 24px 0;
+        margin: 48px 24px 0;
         gap: 40px;
 
         @media (max-width: 768px) {

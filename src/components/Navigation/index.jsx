@@ -12,8 +12,10 @@ function Navigation() {
   const handleBurgerOneClick = () => {
     if (isBurgerOpen) {
       setBurgerOpen(false);
+      document.body.classList.remove("scroll-hidden");
     } else {
       setBurgerOpen(true);
+      document.body.classList.add("scroll-hidden");
     }
   };
 

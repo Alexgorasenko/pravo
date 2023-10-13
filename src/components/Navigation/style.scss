@@ -3,7 +3,6 @@
         position: absolute;
         top: 0;
         left: 0;
-
         opacity: 0;
         background-color: #202020;
         transition: all 0.3s ease 0.1s;
@@ -13,7 +12,6 @@
 
     &_active::after {
         opacity: 0.4;
-
         width: 100vw;
         height: 100vh;
     }
@@ -33,6 +31,7 @@
             max-width: 520px;
             align-items: center;
             padding: 160px 0 90px;
+            overflow: auto;
 
             &_active {
                 right: 0;

@@ -1,18 +1,53 @@
 .faq {
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    padding: 80px 0;
     flex-direction: column;
     width: 100%;
     align-items: center;
 
+    @media (hover: hover) {
+        &:hover {
+            .faq__title::before {
+                width: 80px;
+            }
+        }
+    }
+
     &__title {
+        color: #222;
+        font-family: Inter;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 150%;
+        text-transform: uppercase;
+        position: relative;
+        padding: 0 70px 0;
+        text-align: center;
+        margin: 0 0 48px;
+
+        &::before {
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            width: 50px;
+            content: "";
+            height: 3px;
+            background: #4f8ff0;
+            transform: translateX(-50%);
+            transition: all 0.3s ease 0.1s;
+        }
     }
 
     &__cards {
         display: flex;
         flex-direction: column;
         width: 100%;
-        max-width: 600px;
+        max-width: 900px;
+
+        @media (max-width: 1024px) {
+            width: calc(100% - 24px - 34px);
+        }
     }
 }

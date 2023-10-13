@@ -10,13 +10,27 @@
     &__head {
         display: flex;
         justify-content: space-between;
-        padding: 15px 0;
+        padding: 15px 12px;
         transition: all 0.15s ease-in-out;
-        cursor: pointer;
+
+        @media (hover: hover) {
+            &:hover {
+                cursor: pointer;
+            }
+        }
     }
 
     &__title {
         margin: 0;
+        color: #222;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        text-align: start;
+        max-width: 90%;
     }
 
     &__button {
@@ -54,6 +68,7 @@
         opacity: 0;
         height: 0;
         display: flex;
+        padding: 0 12px;
     }
 
     &__body-active {
