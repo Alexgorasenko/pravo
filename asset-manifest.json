@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb4428d2.css",
+    "main.js": "/static/js/main.0cb55a6f.js",
+    "static/media/promo_desktop.png": "/static/media/promo_desktop.162d7edd7c32fb43d56e.png",
+    "static/media/Inter-Black.ttf": "/static/media/Inter-Black.5bc9c4d5770576fe98af.ttf",
+    "static/media/Inter-Medium.ttf": "/static/media/Inter-Medium.9cbff87dc577185b8630.ttf",
+    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.96ce55e3ba0d6a209090.ttf",
+    "static/media/Feedback.png": "/static/media/Feedback.428902b2bc5ecb40653e.png",
+    "static/media/Inter-Medium.woff": "/static/media/Inter-Medium.7ddb89dcdb33dd761944.woff",
+    "static/media/Inter-Medium.woff2": "/static/media/Inter-Medium.6db7e439cc4b0e5c0cd2.woff2",
+    "static/media/book.png": "/static/media/book.b1c19403f5db5cc1c4be.png",
+    "static/media/Inter-Black.woff": "/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff": "/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Black.woff2": "/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2": "/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/emplo4.png": "/static/media/emplo4.6a678397476f4bbd1802.png",
+    "static/media/emplo2.png": "/static/media/emplo2.84539a0fd45ddff6da69.png",
+    "static/media/emplo1.png": "/static/media/emplo1.42bab40003314d8111dd.png",
+    "static/media/emplo3.png": "/static/media/emplo3.00dc154d46643c9bc148.png",
+    "static/media/feedbackImg2.png": "/static/media/feedbackImg2.66bb48b7a11452aaa0bd.png",
+    "static/media/logo.svg": "/static/media/logo.eecdac685227f8d6f517e9778b2969f5.svg",
+    "static/media/map-white.svg": "/static/media/map-white.a4399232c42853a0cda242b9e2e5a6f7.svg",
+    "static/media/mail.svg": "/static/media/mail.68507ea2adb6463ccecb55f85f745c70.svg",
+    "static/media/mail-white.svg": "/static/media/mail-white.eaf3ec8f2304b607cbb399cb21c2108c.svg",
+    "index.html": "/index.html",
+    "static/media/services-blue.svg": "/static/media/services-blue.3e9afe5d51e6a9ec4009.svg",
+    "static/media/services-white.svg": "/static/media/services-white.eb5d685a2e1d75f27d65.svg",
+    "static/media/phone.svg": "/static/media/phone.d74cb3bb96c2bdae54cd08a6c43c0419.svg",
+    "static/media/phone-white.svg": "/static/media/phone-white.a52078feab7894b4a554409e3ecfca41.svg",
+    "main.bb4428d2.css.map": "/static/css/main.bb4428d2.css.map",
+    "main.0cb55a6f.js.map": "/static/js/main.0cb55a6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb4428d2.css",
+    "static/js/main.0cb55a6f.js"
+  ]
+}
