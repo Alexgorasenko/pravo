@@ -30,7 +30,7 @@ function Feedback() {
                 className="feedback__cards-splide-slide"
                 key={feedback?.id}
               >
-                <FeedbackCard feedback={feedback} />
+                <FeedbackCard feedback={feedback} key={feedback?.id} />
               </SplideSlide>
             );
           })}

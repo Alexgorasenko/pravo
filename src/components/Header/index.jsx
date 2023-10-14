@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./style.scss";
 import mail from "../../images/mail.svg";
 import logo from "../../images/logo.svg";

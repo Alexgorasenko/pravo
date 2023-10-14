@@ -3,11 +3,9 @@ import AboutCompany from "../AboutCompany";
 import Employees from "../Employees";
 import Feedback from "../Feedback";
 import Promo from "../Promo";
-
 import Services from "../Services";
 import Faq from "../Faq";
 import Сontacts from "../Сontacts";
-
 import "./style.scss";
 
 function Main() {

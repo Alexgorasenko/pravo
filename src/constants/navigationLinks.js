@@ -1,10 +1,10 @@
 const navigationLinks = [
-  { title: "Услуги", link: "services" },
-  { title: "О компании", link: "about-company" },
-  { title: "Наши юристы", link: "employees" },
-  { title: "Отзывы", link: "feedback" },
-  { title: "Вопросы и ответы", link: "question" },
-  { title: "Контакты", link: "contacts" },
+  { id: 1, title: "Услуги", link: "services" },
+  { id: 2, title: "О компании", link: "about-company" },
+  { id: 3, title: "Наши юристы", link: "employees" },
+  { id: 4, title: "Отзывы", link: "feedback" },
+  { id: 5, title: "Вопросы и ответы", link: "question" },
+  { id: 6, title: "Контакты", link: "contacts" },
 ];
 
 export default navigationLinks;

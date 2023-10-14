@@ -9,7 +9,7 @@ function Faq() {
       <h3 className="faq__title">Вопросы и ответы</h3>
       <div className="faq__cards">
         {faq.map((item) => {
-          return <Question item={item} />;
+          return <Question item={item} key={item.id} />;
         })}
       </div>
     </section>

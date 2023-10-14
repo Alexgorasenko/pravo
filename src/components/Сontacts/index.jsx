@@ -34,7 +34,6 @@ function Сontacts() {
               </span>
             </div>
           </div>
-
           <div className="contacts__communication-item">
             <div className="contacts__communication-picture">
               <img
@@ -52,7 +51,6 @@ function Сontacts() {
               </span>
             </div>
           </div>
-
           <div className="contacts__communication-item">
             <div className="contacts__communication-picture">
               <img
@@ -71,7 +69,6 @@ function Сontacts() {
             </div>
           </div>
         </div>
-
         <div className="contacts__navigation">
           <ul className="contacts__nav-links">
             <li className="contacts__nav-link">Услуги</li>

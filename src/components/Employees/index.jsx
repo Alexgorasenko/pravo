@@ -15,13 +15,13 @@ function Employees() {
       </p>
       <div className="employees__cards">
         {employees.map((emplo) => {
-          return <EmployeesCard emplo={emplo}></EmployeesCard>;
+          return <EmployeesCard emplo={emplo} key={emplo?.id}></EmployeesCard>;
         })}
       </div>
       <div className="employees__cards-slider">
         <Splide
           options={{
-            autoplay: true,
+            autoplay: false,
             rewindByDrag: true,
             drag: true,
             gap: "24px",

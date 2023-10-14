@@ -48,6 +48,7 @@ function Navigation() {
             return (
               <li
                 className="navigation__nav-link-item"
+                key={item.id}
                 onClick={() => {
                   handleNavLinkClick(item);
                 }}

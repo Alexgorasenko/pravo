@@ -16,7 +16,7 @@ function Services() {
       </p>
       <div className="services__cards">
         {services.map((servis) => {
-          return <Servis servis={servis}></Servis>;
+          return <Servis servis={servis} key={servis?.id}></Servis>;
         })}
       </div>
       <div className="services__cards-splide">
