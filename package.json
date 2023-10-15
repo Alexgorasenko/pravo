@@ -1,11 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-<<<<<<< HEAD
-  "homepage": "https://alexgorasenko.github.io/pravo/",
-=======
-  "homepage": "https://alexgorasenko.github.io/pravo",
->>>>>>> 06a2dfbf391469b2606f465018c4f67a0a27c15a
+  "homepage": "https://alexgorasenko.github.io",
   "private": true,
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
