@@ -1,5 +1,5 @@
 import React from "react";
-import feedbacks from "../../constants/Feedback";
+import feedbacks from "../../../constants/Feedback";
 import FeedbackCard from "../FeedbackCard";
 import "./style.scss";
 import { Splide, SplideSlide } from "@splidejs/react-splide";

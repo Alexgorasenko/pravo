@@ -1,7 +1,7 @@
 import React from "react";
 import Question from "../Question";
 import "./style.scss";
-import faq from "../../constants/Faq";
+import faq from "../../../constants/Faq";
 
 function Faq() {
   return (

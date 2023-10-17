@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.scss";
-import logo from "../../images/logo.svg";
-import mapWhite from "../../images/map-white.svg";
-import mailWhite from "../../images/mail-white.svg";
-import phoneWhite from "../../images/phone-white.svg";
-import director from "../../images/emplo2.png";
+import logo from "../../../images/logo.svg";
+import mapWhite from "../../../images/map-white.svg";
+import mailWhite from "../../../images/mail-white.svg";
+import phoneWhite from "../../../images/phone-white.svg";
+import director from "../../../images/emplo2.png";
 
 function Сontacts() {
   return (

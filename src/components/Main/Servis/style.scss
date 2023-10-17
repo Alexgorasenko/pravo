@@ -18,7 +18,7 @@
             cursor: pointer;
 
             .servis__icon {
-                background: url("../../images/services-white.svg") center/cover;
+                background: url("../../../images/services-white.svg") center/cover;
             }
 
             .servis__title,
@@ -31,7 +31,7 @@
     &__icon {
         width: 35px;
         height: 35px;
-        background: url("../../images/services-blue.svg") center/cover;
+        background: url("../../../images/services-blue.svg") center/cover;
         transition: all 0.1s linear 0.1s;
     }
 

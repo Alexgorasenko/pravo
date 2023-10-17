@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import book from "../../images/book.png";
+import book from "../../../images/book.png";
 
 function AboutCompany() {
   return (

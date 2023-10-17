@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.scss";
 
-import feedbackImg2 from "../../images/feedbackImg2.png";
-import feedbackImg from "../../images/feedbackImg.png";
+import feedbackImg from "../../../images/feedbackImg.png";
 
 function FeedbackCard({ feedback }) {
   return (

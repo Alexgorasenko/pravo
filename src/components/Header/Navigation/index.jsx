@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Burger from "../Burger";
 import "./style.scss";
-import { useNavigate, useLocation } from "react-router-dom";
-import navigationLinks from "../../constants/navigationLinks";
+import { useNavigate } from "react-router-dom";
+import navigationLinks from "../../../constants/navigationLinks";
 
 function Navigation() {
   const [isBurgerOpen, setBurgerOpen] = useState(false);

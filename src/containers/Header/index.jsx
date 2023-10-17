@@ -3,7 +3,7 @@ import "./style.scss";
 import mail from "../../images/mail.svg";
 import logo from "../../images/logo.svg";
 import phone from "../../images/phone.svg";
-import Navigation from "../Navigation";
+import Navigation from "../../components/Header/Navigation";
 
 function Header() {
   return (

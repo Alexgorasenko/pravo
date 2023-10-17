@@ -1,7 +1,7 @@
 import React from "react";
 import Servis from "../Servis";
 import "./style.scss";
-import services from "../../constants/Servises";
+import services from "../../../constants/Servises";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 

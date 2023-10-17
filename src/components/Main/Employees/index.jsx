@@ -1,7 +1,7 @@
 import React from "react";
 import EmployeesCard from "../EmployeesCard";
 import "./style.scss";
-import employees from "../../constants/Employees";
+import employees from "../../../constants/Employees";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 function Employees() {
